@@ -8,8 +8,7 @@
     position: absolute;
     top: 0px;
     bottom: 0;
-    right: 0;
-    left: 0;
+
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -17,7 +16,7 @@
     transform: skewY(-6deg);
     transform-origin: top left;
     filter: brightness(50%);
-    
+
     background-position: right;
 }
 
@@ -35,7 +34,10 @@
     align-items: center;
 }
 
-.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+.skewed-header
+    > .skewed-header-wrapper
+    > .skewed-header-content
+    > .heading-wrapper {
     background-color: #cea135;
     color: #11122b;
     border-bottom-left-radius: 2px;
